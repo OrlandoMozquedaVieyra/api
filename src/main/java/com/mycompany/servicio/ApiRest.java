@@ -1,0 +1,9 @@
+package com.mycompany.servicio;
+
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
+
+@ApplicationPath("api")
+public class ApiRest extends Application{
+    
+}
